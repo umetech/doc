@@ -6,7 +6,7 @@
 
 ------
 
-### Smart Links Api
+### News List
 
 **Method:**
 
@@ -28,7 +28,6 @@ limit:	      (int) the number of news returned, default is 20
 offset:	      (int) the number of offsets in news lists, default is 0
 width:	      (int) news thumbnail image's width, default is 150(px)
 height:	      (int) news thumbnail image's height, default is 100(px)
-language:     (string) two language code, supported:en,es,de,ru,fr,pt,it etc. default is en
 uid:          (string) user id, may be device id or UUID
 ip:           (string) IP address requested by user
 ua:           (string) User-Agent information requested by user
