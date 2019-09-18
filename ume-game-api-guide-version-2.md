@@ -111,7 +111,7 @@ ua:           (string) User-Agent information requested by user
 ```ini
 app_id:       (string) app id
 app_key:      (string) app key
-keyword:      (string) search game of keyword
+keyword:      (string) keyword to search game
 ```
 
 **Optionals:** 

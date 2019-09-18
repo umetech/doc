@@ -17,7 +17,7 @@
 ```ini
 app_id:       (string) app id
 app_key:      (string) app key
-keyword:      (string) search product of keyword
+keyword:      (string) keyword to search product
 ```
 
 **Optionals:** 
