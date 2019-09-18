@@ -28,7 +28,7 @@ ua:           (字符串)用户请求的user-agent信息
 ```
 **request**
 
-> https://sharecard.cc/v1/menu?app_id=portal&app_key=ef46cc225bd6822b93b606c78e0ca5db&locale=en_US
+> https://sharecard.cc/v1/menu?app_id={app_id}&app_key={app_key}&locale=en_US
 
 **response**
 
@@ -96,7 +96,7 @@ ua:            (字符串)用户请求的user-agent信息
 
 **request**
 
-> https://sharecard.cc/v1/search?app_id=portal&app_key=ef46cc225bd6822b93b606c78e0ca5db&locale=en_US&category=amazon&keyword=shoe&limit=10
+> https://sharecard.cc/v1/search?app_id={app_id}&app_key={app_key}&locale=en_US&category=amazon&keyword=shoe&limit=10
 
 **response**
 
@@ -146,7 +146,7 @@ ua:            (字符串)用户请求的user-agent信息
 
 >  返回的结果中有`prev`与`next`参数,`prev` 表示向前翻页的标识, `next`表示向后翻页的结识, 这两个参数的值为字符串, 当需要向后翻页时, 需要带上`next`参数, 比如这里`next`为10, 向后翻页, 则请求时的`Url`为:
 
->  https://sharecard.cc/v1/search?app_id=portal&app_key=ef46cc225bd6822b93b606c78e0ca5db&locale=en_US&category=amazon&keyword=shoe&limit=10&next=10 
+>  https://sharecard.cc/v1/search?app_id={app_id}&app_key={app_key}&locale=en_US&category=amazon&keyword=shoe&limit=10&next=10 
 >  
 >  `prev`与`next`均是字符串的值
 
@@ -179,8 +179,8 @@ url:					目标长网址
 POST提交的数据
 
 ```ini
-app_id=portal
-app_key=ef46cc225bd6822b93b606c78e0ca5db
+app_id={app_id}
+app_key={app_key}
 url=https://www.baidu.com
 ```
 
