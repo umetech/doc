@@ -198,10 +198,10 @@ url=https://www.baidu.com
 
 ### Error Status Codes(错误代码)
 
-| **Error Code** | **Error Msg**          |
-| -------------- | ---------------------- |
-| 10001          | Illegal   request      |
-| 10002          | Unauthorized   request |
+| **Error Code** | **Error Msg**        |
+| -------------- | -------------------- |
+| 10001          | Illegal request      |
+| 10002          | Unauthorized request |
 
 **For example:**
 
