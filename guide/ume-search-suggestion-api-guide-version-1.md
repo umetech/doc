@@ -6,7 +6,7 @@
 
 ------
 
-### Search Suggestion List
+### 2. Search Suggestion List
 
 **Method:**
 

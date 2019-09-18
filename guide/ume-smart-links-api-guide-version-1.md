@@ -1,4 +1,4 @@
-## Guide for Ume Smart Links Version 1.0
+## Api Guide for Ume Smart Links Version 1.0
 
 ### Api Portal 
 

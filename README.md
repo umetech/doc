@@ -1,11 +1,7 @@
-## Api Guide & Documents
+## APIs Guide & Documents for Ume
 
-- [Categories for ShareCard](categories-for-sharecard.md)
-- [ShareCard Api Guide Version 1.0](sharecard-api-guide-version-1.md)
-- [Ume Sponsored Content Api Guide Version 1.0](ume-sponsored-content-api-guide-version-1.md)
-- [Ume Smart Links Guide Version 1.0](ume-smart-links-guide-version-1.md)
-- [Ume News Api Guide Version 1.0](ume-news-api-guide-version-1.md)
-- [Ume Shopping Api Guide Version 1.0](ume-shopping-api-guide-version-1.md)
-- [Ume Game Api Guide Version 1.0](ume-game-api-guide-version-1.md)
-- [Ume Game Api Guide Version 2.0](ume-game-api-guide-version-2.md)
+- [APIs Guide for Ume](guide/README.md)
+- [Configuration System APIs for Ume](api/README.md)
+- [Documents for Ume](document/README.md)
+- [APIs and Documents for ShareCard ](sharecard/README.md)
 
