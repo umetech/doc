@@ -1,39 +1,38 @@
-## Guide for Ume Sponsored Content Api
+## Guide for Ume Sponsored Content Api Version 1.0
 
-### Api 接口总 Url
+### Api Portal
 
-> [https://api.eportalmobile.com/v1/sponsored/content]()
+> https://api.eportalmobile.com/v1/sponsored/content
 
 ---
 
-### 软件列表获取Api
+### Sponsored Content List
 
-**Method**
+**Method:**
 
-> GET 与 POST
+> GET / POST
 
- **Required(必须参数):**
-
-```ini
-app_id:       分配的app id
-app_key:      分配的app key
-```
-
-**Options(可选参数):** 
-
+ **Required:**
 
 ```ini
-language:     二位语言代码, 当前支持:en,es,de,ru,fr,pt,it 默认为en
-limit:        (整型)返回的软文条数,  默认为5条
-ip:           (字符串)用户请求的ip地址
-ua:           (字符串)用户请求的user-agent信息
+app_id:       (string) app id
+app_key:      (string) app key
 ```
-**request**
 
-> https://api.eportalmobile.com/v1/sponsored/content?app_id={app_id}&app_key={app_key}&language=en&limit=3
+**Options:** 
 
 
-**response**
+```ini
+language:     (string) two language code, supported:en,es,de,ru,fr,pt,it default is en
+limit:        (int) the number of sponsored content returned, default is 5
+ip:           (string) IP address requested by user
+ua:           (string) User-Agent information requested by user
+```
+- **request**
+
+> ?app_id={app_id}&app_key={app_key}&language=en&limit=3
+
+- **response**
 
 ```json
 {
@@ -111,14 +110,14 @@ ua:           (字符串)用户请求的user-agent信息
 
 ---
 
-### Error Status Codes(错误代码)
+### Error Status Codes
 
 | **Error Code** | **Error Msg**        |
 | -------------- | -------------------- |
 | 10001          | Illegal request      |
 | 10002          | Unauthorized request |
 
- **For example:**
+- **e.g.**
 
 ```json
 {
