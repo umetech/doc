@@ -1,4 +1,4 @@
-## APIs Guide & Documents for Ume
+## APIs Guide & Documents
 
 - [APIs Guide for Ume](guide/README.md)
 - [Configuration System APIs for Ume](api/README.md)

@@ -18,7 +18,7 @@
 app_id:       (string) app id
 app_key:      (string) app key
 ```
-**Options:**
+**Optionals:**
 
 ```ini
 locale:       (string) country & language region code, e.g. en_US, de_De. default is en_US
@@ -76,7 +76,7 @@ app_id:       (string) app id
 app_key:      (string) app key
 ```
 
-**Options:**
+**Optionals:**
 
 ```ini
 keyword:       (string) search keyword, default is empty
