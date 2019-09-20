@@ -178,9 +178,9 @@ url:					(string) target url
 POST提交的数据
 
 ```ini
-app_id={app_id}
-app_key={app_key}
-url=https://www.baidu.com
+app_id:{app_id}
+app_key:{app_key}
+url:https://www.baidu.com
 ```
 
 - **response**
