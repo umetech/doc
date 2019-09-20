@@ -19,7 +19,7 @@ app_id:       (string) app id
 app_key:      (string) app key
 ```
 
-**Options:** 
+**Optionals:** 
 
 
 ```ini

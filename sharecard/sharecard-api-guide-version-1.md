@@ -10,7 +10,7 @@
 
 **Method:**
 
-> GET 与 POST
+> GET / POST
 
 **Required:**
 
@@ -67,7 +67,7 @@ ua:           (string) User-Agent information requested by user
 
 **Method:**
 
-> GET 与 POST
+> GET / POST
 
 **Required:**
 
