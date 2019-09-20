@@ -40,12 +40,13 @@
 | bing_news | Bing News | https://www.bing.com |
 | celltick_news | Celltick News | https://www.celltick.com |
 | expedia | Expedia | https://www.expedia.com |
-| pdd | PDD |  |
+| pdd | PDD | https://www.pinduoduo.com/ |
 | priceline | Priceline | https://www.priceline.com |
 | ticketmaster | Ticketmaster | https://www.ticketmaster.com |
 | tmall | Tmall | https://www.tmall.com |
 | zergnet | Zergnet | https://www.zergnet.com |
 | super_search | Super Search |  |
+|  |  |  |
 
 **说明**
 
