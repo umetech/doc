@@ -1,4 +1,5 @@
 ## Guide for Ume Game Api Version 2.0
+*-- Last updated: September 20,2019*
 
 ### Api Portal 
 
@@ -52,6 +53,7 @@ app_key:      (string) app key
 **Optionals:** 
 
 ```ini
+category:     (string) game category, will display all categories when it is empty
 limit:	      (int) the number of games returned, default is 20
 offset:	      (int) the number of offsets in games lists, default is 0
 uid:          (string) user id, may be device id or UUID
@@ -62,6 +64,8 @@ ua:           (string) User-Agent information requested by user
 - **request**
 
 > /list?app_id={app_id}&app_key={app_key}&limit=5&offset=0
+>
+> /list?app_id={app_id}&app_key={app_key}&category=Racing&limit=5&offset=0
 
 - **response**
 
@@ -117,6 +121,7 @@ keyword:      (string) keyword to search game
 **Optionals:** 
 
 ```ini
+category:     (string) game category, will search all categories when it is empty
 limit:	      (int) the number of games returned, default is 20
 offset:	      (int) the number of offsets in games lists, default is 0
 uid:          (string) user id, may be device id or UUID
@@ -131,6 +136,8 @@ ua:           (string) User-Agent information requested by user
 - **request**
 
 > /search?app_id={app_id}&app_key={app_key}&keyword=girl&limit=5&offset=0
+>
+> /search?app_id={app_id}&app_key={app_key}&category=Racing&keyword=girl&limit=5&offset=0
 
 - **response**
 
