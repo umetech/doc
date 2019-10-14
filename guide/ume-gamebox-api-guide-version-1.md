@@ -85,7 +85,7 @@ ua:           (string) User-Agent information requested by user
 
 - **parameter**
 
-> categories:  Define games that need to be returned by category names, with comma separations between each category
+> categories:  Define games that need to be returned by category names, with comma separations between each category, Default categories is `Arcade,Sports & Racing,Beauty & Girl,Strategy,Puzzle & Logic,Adventure,Action & Risk,Music` when catgories is empty
 
 - **request**
 
