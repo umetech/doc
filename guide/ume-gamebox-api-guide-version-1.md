@@ -324,55 +324,6 @@ ua:           (string) User-Agent information requested by user
 }
 ```
 
-------
-
-- **parameter**
-
-> keyword:  search for keyword, the following example keyword is `girl`
-
-- **request**
-
-> /search?app_id={app_id}&app_key={app_key}&keyword=girl&limit=5&offset=0
->
-> /search?app_id={app_id}&app_key={app_key}&category=Racing&keyword=girl&limit=5&offset=0
-
-- **response**
-
-```json
-[{
-	"id": 109,
-	"icon": "https://d1bjj4kazoovdg.cloudfront.net/assets/games/room-makeover-maries-girl-games/big_icon.jpg?p=umebrowser",
-	"thumb": "http://d1bjj4kazoovdg.cloudfront.net/assets/games/room-makeover-maries-girl-games/teaser@2x.jpg?p=umebrowser",
-	"title": "Room Makeover - Marie's Girl Games",
-	"url": "https://games.softgames.com/games/room-makeover-maries-girl-games/gamesites/5896/"
-}, {
-	"id": 136,
-	"icon": "https://d1bjj4kazoovdg.cloudfront.net/assets/games/nail-salon-maries-girl-games/big_icon.jpg?p=umebrowser",
-	"thumb": "http://d1bjj4kazoovdg.cloudfront.net/assets/games/nail-salon-maries-girl-games/teaser@2x.jpg?p=umebrowser",
-	"title": "Nail Salon - Marie's Girl Games",
-	"url": "https://games.softgames.com/games/nail-salon-maries-girl-games/gamesites/5896/"
-}, {
-	"id": 180,
-	"icon": "https://d1bjj4kazoovdg.cloudfront.net/assets/games/shoe-designer-maries-girl-games/big_icon.jpg?p=umebrowser",
-	"thumb": "http://d1bjj4kazoovdg.cloudfront.net/assets/games/shoe-designer-maries-girl-games/teaser@2x.jpg?p=umebrowser",
-	"title": "Shoe Designer - Marie's Girl Games",
-	"url": "https://games.softgames.com/games/shoe-designer-maries-girl-games/gamesites/5896/"
-}, {
-	"id": 362,
-	"icon": "https://d1bjj4kazoovdg.cloudfront.net/assets/games/girls-on-job/big_icon.jpg?p=umebrowser",
-	"thumb": "http://d1bjj4kazoovdg.cloudfront.net/assets/games/girls-on-job/teaser@2x.jpg?p=umebrowser",
-	"title": "Girls on Job",
-	"url": "https://games.softgames.com/games/girls-on-job/gamesites/5896/"
-}, {
-	"id": 432,
-	"icon": "https://images.quickgame.top/2018102411291055491.jpg",
-	"thumb": "https://images.quickgame.top/2018102411291055491.jpg",
-	"title": "Girl's Dash Puzzle",
-	"url": "http://12.mosegame.com/detail?id=361"
-}]
-
-```
-
 ---
 
 ## Error Status Codes
