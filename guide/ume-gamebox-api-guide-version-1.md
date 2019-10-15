@@ -28,6 +28,9 @@ limit:	      (int) the number of games returned, default is 5
 uid:          (string) user id, may be device id or UUID
 ip:           (string) IP address requested by user
 ua:           (string) User-Agent information requested by user
+location:			(string) two uppercase country codes, e.g. US, DE, MX. default is US
+lang:					(string) language code, e.g. en_US,es_ES,de_DE. default is en_US
+device:       (string) the model of mobile device
 ```
 
 - **request**
@@ -91,6 +94,9 @@ size:	        (int) the number of games returned for per category, default is 5
 uid:          (string) user id, may be device id or UUID
 ip:           (string) IP address requested by user
 ua:           (string) User-Agent information requested by user
+location:			(string) two uppercase country codes, e.g. US, DE, MX. default is US
+lang:					(string) language code, e.g. en_US,es_ES,de_DE. default is en_US
+device:       (string) the model of mobile device
 ```
 
 - **parameter**
