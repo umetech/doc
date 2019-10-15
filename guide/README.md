@@ -9,5 +9,6 @@
 - [Ume Shopping Api Guide Version 1.0](ume-shopping-api-guide-version-1.md)
 - [Ume Smart Links Api Guide Version 1.0](ume-smart-links-api-guide-version-1.md)
 - [Ume Sponsored Content Api Guide Version 1.0](ume-sponsored-content-api-guide-version-1.md)
+- [Ume Brand Safety Api Guide Version 1.0](ume-brand-safety-api-guide-version-1.md)
 
 
