@@ -90,18 +90,22 @@ offset:				(int) the number of offsets in games lists, default is 0
 
 > type: The default is `0`, which means that it is a normal game, When type is `1`, it means banner game, When type is `2`, it means featured game
 
-- request**
+- **request**
 
 > /list?category={category}&type={type}&limit={limit}&offset={offset}
 
 ### some examples of request
 
   >/list               							
+  >
   >/list?type=1&limit=5
+  >
   >/list?category=Sports&limit=10
 
 (1). List all games with default values type=0,limit=10,offset=0
+
 (2). List games with type=0, limit=5
+
 (3). List all games with category=Sports, limit=10
 
 - **response**
