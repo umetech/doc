@@ -1,10 +1,10 @@
 # Guide for ShareCard Api Version 1.0
 
-*-- Last updated: Oct 15,2019*
+*-- Last updated: Oct 22,2019*
 
 ## Api Portal
 
-> https://sharecard.cc/v1
+> https://shur.shop/v1
 
 ---
 
@@ -180,7 +180,7 @@ keyword:       (string) search keyword, default is empty
 category:      (string) category name of main menu 
 title:         (string) title in card
 image:         (string) the url to display picture in card
-price:         (string) the price in card
+price:         (string) the price in card, may need to includen '$' or '€'
 ```
 
 - **request**
@@ -206,7 +206,7 @@ url: https://www.baidu.com
 
 ```json
 {
-	"url": "https://sharecard.mobi/000001"
+	"url": "https://shur.shop/l/00002l"
 }
 ```
 
@@ -231,7 +231,7 @@ price: xxx
 
 ```json
 {
-	"url": "https://sharecard.mobi/000001"
+	"url": "https://shur.shop/l/00002l"
 }
 ```
 
