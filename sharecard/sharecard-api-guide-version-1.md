@@ -159,7 +159,7 @@ ua:            (string) User-Agent information requested by user
 
 ##  Generate Short Url
 
-> 短链接主要为了服务于分享时之用, 短链接的格式为 https://sharecard.mobi/xxxxxx `xxxxxx` 为6位hex码字符串
+> 短链接主要为了服务于分享时之用, 短链接的格式为 https://shur.shop/l/xxxxxx `xxxxxx` 为6位hex码字符串
 
 **Method:**
 
@@ -190,7 +190,7 @@ price:         (string) the price in card, may need to includen '$' or '€'
 **注意**
 
 > 1. 当不带可选参数时, 短网址实现的是跳转功能;
-> 2. 当带有选参数, 短网址实现的是中间跳转功能;
+> 2. 当带有可选参数(title与url不能为空), 短网址实现的是中间跳转功能;
 
 (1) 不带可选参数时
 
