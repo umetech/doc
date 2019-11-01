@@ -176,6 +176,7 @@ url:          (string) target url
 **Optionals:**
 
 ```ini
+id:						 (string) the identity of content
 keyword:       (string) search keyword, default is empty
 category:      (string) category name of main menu 
 title:         (string) title in card
