@@ -35,6 +35,7 @@ the first argument after the `translate_a/`: either `single` or `t`
   > qca - 
   > rm - transcription / transliteration of source and translated texts
   > rw - See also list
+  > sos -
   > ss - Full synonyms of source text, if it's one word
   > sw - 
   > t - translation of source text
@@ -51,6 +52,7 @@ the first argument after the `translate_a/`: either `single` or `t`
 - `tk` - token
 - `trs` -1,
 - `tsel` - 0,
+- `xid` -,
 
 - `total` -,
 - `idx` - 0,
@@ -62,6 +64,7 @@ the first argument after the `translate_a/`: either `single` or `t`
 - https://clients5.google.com/translate_a/t?client=dict-chrome-ex&sl=en&tl=zh&dt=t&q=shoe
 - https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=zh&dt=t&q=shoe&ie=UTF-8&oe=UTF-8&dj=1
 - https://translate.google.com/translate_a/single?client=gtx&dj=1&sl=en&tl=zh&hl=en&dt=bd&dt=ex&dt=ld&dt=md&dt=qca&dt=rw&dt=rm&dt=ss&dt=t&dt=at&ie=UTF-8&oe=UTF-8&otf=1&ssel=0&tsel=0&kc=1&tk=685532.807248&q=shoe
+- https://translate.google.com/translate_a/single?client=webapp&sl=en&tl=zh-CN&hl=en&dt=at&dt=bd&dt=ex&dt=ld&dt=md&dt=qca&dt=rw&dt=rm&dt=sos&dt=ss&dt=t&otf=1&ssel=0&tsel=0&xid=45662847&kc=4&tk=22510.433892&q=shoe
 
 
 # References
