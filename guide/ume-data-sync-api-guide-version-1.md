@@ -8,6 +8,7 @@
 - Client POST数据与服务端Response回传数据结构格式一致
 - Client 获取Response回传数据后，需要依据flag的值进行更新，删除等操作，操作成功之后，将flag置为0
 - data节点里面的数据，不同业务节点不一样，有部分数据不用传输，比如：
+
 > 1. type为word时，`lexicals` 节点可以省略
 > 2. type为text时，`translation` 节点可以省略
 
@@ -27,8 +28,8 @@
 	"type": "word",
 	"timestamp": 21321312321,
 	"list": [{
-			"cid": 3223234,
-			"id": 5322432,
+			"cid": "{uuid}",
+			"id": 4324,
 			"flag": 1,
 			"version": 34,
 			"updated_at": 1634234263,
@@ -39,6 +40,7 @@
 				"name": "shoe",
         "usage": "xxx",
         "url": "xxx",
+        "cover":"xxx",
         "timestamp": 164000000,
 				"lexicals": [{
 					"category": "Nouns",
@@ -48,7 +50,7 @@
 			}]
 		},
 		{
-			"cid": 3213213,
+			"cid": "{uuid}",
 			"id": 1234567,
 			"flag": 4,
 			"version": 100,
@@ -60,6 +62,7 @@
 				"name": "book",
         "usage": "xxx",
         "url": "xxx",
+        "cover":"xxx",
         "timestamp": 164000000,
 				"lexicals": [{
 						"category": "Nouns",
@@ -88,7 +91,7 @@
 
 - debug: 当为true时，POST与Response回传的数据将采用明文方式，不会进行Base64的加密
 
-- cid: 由Client端创建, 服务端仅做双向透传
+- cid: 由Client端创建, 建议采用36位小写uuid, 服务端仅做双向透传
 
 - id:  服务端创建值 (Client新建时默认为0)
 
@@ -118,7 +121,7 @@
 	"type": "text",
 	"timestamp": 21321312321,
 	"list": [{
-			"cid": 3213213,
+			"cid": "{uuid}",
 			"id": 5322432,
 			"flag": 1,
 			"version": 34,
@@ -132,7 +135,7 @@
 			}]
 		},
 		{
-			"cid": 3213213,
+			"cid": "{uuid}",
 			"id": 7463432,
 			"flag": 4,
 			"version": 15,
@@ -167,7 +170,7 @@
 	"type": "bookmark",
 	"timestamp": 21321312321,
 	"list": [{
-			"cid": 3213213,
+			"cid": "{uuid}",
 			"id": 5322432,
 			"flag": 1,
 			"version": 34,
@@ -176,12 +179,13 @@
         "timestamp": 164000000,
         "parent": null,
 				"folder": "xxx",
+        "order": 1,
 				"name": "百度",
 				"url": "https://baidu.com"
 			}]
 		},
 		{
-			"cid": 3213213,
+			"cid": "{uuid}",
 			"id": 7463432,
 			"flag": 4,
 			"version": 15,
@@ -190,6 +194,7 @@
         "timestamp": 164000000,
         "parent":"xxx",
 				"folder": "xxx",
+        "order":2,
 				"name": "新浪",
 				"url": "https://sina.com"
 			}]
@@ -242,7 +247,7 @@
     "list": [
         {
             "origin": "wordly_extension",
-            "cid": 1,
+            "cid": "{uuid}",
             "id": 1000001,
             "flag": 1,
             "version": 1,
@@ -259,7 +264,7 @@
         },
         {
             "origin": "wordly_screen",
-            "cid": 1,
+            "cid": "{uuid}",
             "id": 1000003,
             "flag": 1,
             "version": 1,
@@ -276,7 +281,7 @@
         },
         {
             "origin": "wordly_extension",
-            "cid": 2,
+            "cid": "{uuid}",
             "id": 1000002,
             "flag": 4,
             "version": 5,
@@ -309,7 +314,7 @@
   "type": "text",
   "timestamp": 1608261650,
   "list": [{
-    "cid": 1,
+    "cid": "{uuid}",
     "id": 0,
     "flag": 1,
     "version": 0,
@@ -323,7 +328,7 @@
     }]
   },
     {
-      "cid": 2,
+      "cid": "{uuid}",
       "id": 1000002,
       "flag": 4,
       "version": 0,
@@ -354,7 +359,7 @@
     "list": [
         {
             "origin": "wordly_screen",
-            "cid": 2,
+            "cid":  "{uuid}",
             "id": 1000002,
             "flag": 0,
             "version": 1,
@@ -371,7 +376,7 @@
         },
         {
             "origin": "wordly_extension",
-            "cid": 2,
+            "cid": "{uuid}",
             "id": 1000002,
             "flag": 4,
             "version": 5,
@@ -439,7 +444,7 @@
     "list": [
         {
             "origin": "wordly_extension",
-            "cid": 1,
+            "cid": "{uuid}",
             "id": 1000001,
             "flag": 1,
             "version": 1,
@@ -456,7 +461,7 @@
         },
         {
             "origin": "wordly_extension",
-            "cid": 2,
+            "cid": "{uuid}",
             "id": 1000002,
             "flag": 4,
             "version": 6,
