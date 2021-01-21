@@ -1,6 +1,6 @@
 # 数据同步结构及举例说明
 
-
+*-- Last updated: Jan 21,2021*
 
 ## 前言
 
@@ -18,13 +18,13 @@
 
 ### API接口
 
-> https://user.wordlypro.com/sync/word?app_id=xxxxx&debug=true
+> https://nextword.me/sync/word?app_id=xxxxx&debug=true
 
 ### 数据结构
 
 ```json
 {
-	"token": "xxxx",
+	"token": "xxx",
 	"type": "word",
 	"timestamp": 21321312321,
 	"list": [{
@@ -111,13 +111,13 @@
 
 ### API接口
 
-> https://user.wordlypro.com/sync/text?app_id=xxxxx&debug=true
+> https://nextword.me/sync/text?app_id=xxxxx&debug=true
 
 ### 数据结构
 
 ```json
 {
-	"token": "xxxx",
+	"token": "xxx",
 	"type": "text",
 	"timestamp": 21321312321,
 	"list": [{
@@ -160,13 +160,13 @@
 
 ### API接口
 
-> https://user.wordlypro.com/sync/bookmark?app_id=xxxxx&debug=true
+> https://nextword.me/sync/bookmark?app_id=xxxxx&debug=true
 
 ### 数据结构
 
 ```json
 {
-	"token": "xxxx",
+	"token": "xxx",
 	"type": "bookmark",
 	"timestamp": 21321312321,
 	"list": [{
@@ -217,7 +217,7 @@
 
 #### POST URL
 
-> https://user.wordlypro.com/sync/text?app_id=wordly_screen&debug=true
+> https://nextword.me/sync/text?app_id=wordly_screen&debug=true
 
 ### 1. 初始化同步
 
@@ -227,7 +227,7 @@
 
 ```json
 {
-  "token": "fb37c8c03635406ebd2a2bb10ef01aee.1608260620.1",
+  "token": "xxx",
   "type": "text",
   "timestamp": 0,
   "list": []
@@ -241,7 +241,7 @@
 ```json
 {
     "size": 3,
-    "token": "fb37c8c03635406ebd2a2bb10ef01aee.1608260620.1",
+    "token": "xxx",
     "type": "text",
     "timestamp": 1608261650,
     "list": [
@@ -310,7 +310,7 @@
 
 ```json
 {
-  "token": "fb37c8c03635406ebd2a2bb10ef01aee.1608260620.1",
+  "token": "xxx",
   "type": "text",
   "timestamp": 1608261650,
   "list": [{
@@ -353,7 +353,7 @@
 ```json
 {
     "size": 2,
-    "token": "fb37c8c03635406ebd2a2bb10ef01aee.1608260620.1",
+    "token": "xxx",
     "type": "text",
     "timestamp": 1608261641,
     "list": [
@@ -408,7 +408,7 @@
 
 ```json
 {
-  "token": "fb37c8c03635406ebd2a2bb10ef01aee.1608260620.1",
+  "token": "xxx",
   "type": "text",
   "timestamp": 1608261641,
   "list": []
@@ -426,7 +426,7 @@
 ```json
 {
     "size": 0,
-    "token": "fb37c8c03635406ebd2a2bb10ef01aee.0.1",
+    "token": "xxx",
     "type": "text",
     "timestamp": 1608260184,
     "list": []
@@ -438,7 +438,7 @@
 ```json
 {
     "size": 2,
-    "token": "fb37c8c03635406ebd2a2bb10ef01aee.1608260620.1",
+    "token": "xxx",
     "type": "text",
     "timestamp": 1608270490,
     "list": [
