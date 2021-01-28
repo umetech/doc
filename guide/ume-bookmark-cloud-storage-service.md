@@ -30,14 +30,12 @@
 ### Response
 
 ```json
-[
-    {
-        "url": "https://nextword.me/i/bookmark/{token}/202101260322459605.html",
-        "size": 359,
-        "time": 1611631365,
-        "md5": "c2638d7dfac18615898db3194ea400f3"
-    }
-]
+{
+  "url": "https://nextword.me/i/bookmark/{token}/202101260322459605.html",
+  "size": 359,
+  "time": 1611631365,
+  "md5": "c2638d7dfac18615898db3194ea400f3"
+}
 ```
 
 
